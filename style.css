@@ -1,0 +1,79 @@
+
+body {
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(255, 144, 222), rgb(133, 213, 249));
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+footer img {
+    box-shadow:  10px 10px 10px 0 black;
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 30px ;
+}
+
+.rfhnbyrb {
+    display: flex;
+    justify-content: center;
+}
+
+.link-nav1 {
+    float: left;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    border: 4px solid rgb(255, 144, 222);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.link-nav2 {
+    float: right;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    border: 4px solid rgb(133, 213, 249);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.link-nav1:hover {
+    color: white;
+    background-color:rgb(255, 144, 222);
+    transition: all 1 linear;
+}
+
+.link-nav2:hover {
+    color: white;
+    background-color:rgb(133, 213, 249);
+    transition: all 1 linear;
+}
+
+h1:hover {
+    transform: scale(1.5);
+    padding: 20px;
+    transition: 1s all ease-in;
+}
+
+
+
+
+
+

@@ -66,13 +66,6 @@ footer img {
     transition: all 1 linear;
 }
 
-h1:hover {
-    transform: scale(1.5);
-    padding: 20px;
-    transition: 1s all ease-in;
-}
-
-
 
 
 
